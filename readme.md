@@ -20,3 +20,7 @@ It is built on PyTorch and the timm library, and includes a custom classificatio
     - model.py: Defines datasets (Dataset) and deep learning models, supporting various backbones
 
 - Pretrained weight download link:
+
+### Evaluation Results
+The following is an example confusion matrix from our internal results:
+![Confusion Matrix](./resources/confusion_matrix_internal.png)
