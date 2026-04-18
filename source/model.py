@@ -137,7 +137,7 @@ def _build_backbone(model_name, pretrained=True):
 
     return base_model, num_features
 
-class MammoCNN(nn.Module):
+class MVMammo(nn.Module):
     def __init__(self, model_name, num_classes=4, pretrained=True):
         super().__init__()
 
@@ -214,4 +214,4 @@ class MammoCNN(nn.Module):
         return output, features
 
 def create_model(model_name, num_classes=4, pretrained=True):    
-    return MammoCNN(model_name, num_classes, pretrained)
+    return MVMammo(model_name, num_classes, pretrained)
